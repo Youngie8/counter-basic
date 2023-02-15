@@ -1,0 +1,55 @@
+/* Elements */
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: whitesmoke;
+    scroll-behavior: smooth;
+}
+button{
+    width: 100px;
+    height: 40px;
+    background-color: inherit;
+    margin: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+}
+button:hover{
+    color:whitesmoke;
+    background-color: #000;
+}
+/* Classes */
+.count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+    color: blue;
+}
+.header{
+    height: 30%;
+    padding: 10px;
+    color: cornflowerblue;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+.increase{
+    color: green;
+}
+.decrease{
+    color: red;
+}
+.increment{
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* IDs */
+#header{
+    font-size: 70px;
+}
